@@ -1,4 +1,5 @@
 import sys 
+from src.logger import logging
 
 import logging
 def error_message_detail(error,error_detail:sys):
@@ -16,9 +17,9 @@ class CustomException(Exception):
         return self.error_message    
 
 
-'''
-TO Check the code wheather it is working properly or not
-if __name__=="__main__":
+
+#TO Check the code wheather it is working properly or not
+'''if __name__=="__main__":
     try:
         a=1/0
     except Exception as e:

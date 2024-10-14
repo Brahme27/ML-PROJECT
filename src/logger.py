@@ -16,8 +16,8 @@ logging.basicConfig(
 )
 
 
-'''
-To Check the code Wheather it is working properly or not
-if __name__=="__main__":
+
+#To Check the code Wheather it is working properly or not
+'''if __name__=="__main__":
     logging.info("Logging has started")
-    '''
+   ''' 
